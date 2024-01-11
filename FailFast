@@ -4,7 +4,7 @@ pipeline {
 stage('Stages Running in Parallel') {
             failFast true
             parallel {
-                stage('Stage1) {
+                stage('Stage1') {
                     steps {
                         echo "Stage1 executing"
                         sleep 10
